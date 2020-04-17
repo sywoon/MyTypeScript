@@ -1,0 +1,23 @@
+{
+  "name": "MyTypeScript",
+  "version": "1.0.0",
+  "description": "ts日常学习积累",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sywoon/MyTypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sywoon/MyTypeScript/issues"
+  },
+  "homepage": "https://github.com/sywoon/MyTypeScript#readme",
+  "dependencies": {
+    "loadash": "^1.0.0"
+  }
+}
