@@ -11,6 +11,13 @@ class LodashTest {
         // false, null, 0, "", undefined, 和 NaN 
         arr = lodash.compact([0, 1, false, 2, '', 3]);
         log.i(arr); // [1, 2, 3]
+        arr = [1];
+        // 合并单个元素或数组(只能一层)
+        var other = lodash.concat(arr, 2, [3], [[4]]);
+        log.i(arr, other);
+        // 删除第二个数组中的元素
+        arr = lodash.difference([3, 2, 1], [4, 2]);
+        log.i(arr);
     }
 }
 //# sourceMappingURL=lodash_test.js.map
