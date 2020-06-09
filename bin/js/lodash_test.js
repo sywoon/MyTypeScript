@@ -14,10 +14,10 @@ class LodashTest {
         arr = [1];
         // 合并单个元素或数组(只能一层)
         var other = lodash.concat(arr, 2, [3], [[4]]);
-        log.i(arr, other);
+        log.i(arr, other); //[1,2,3,[4]]
         // 删除第二个数组中的元素
         arr = lodash.difference([3, 2, 1], [4, 2]);
-        log.i(arr);
+        log.i(arr); //[3,1]
     }
 }
 //# sourceMappingURL=lodash_test.js.map

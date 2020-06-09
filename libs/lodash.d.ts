@@ -839,11 +839,11 @@ declare class lodash {
 
     static initial(array: any): any;
 
-    static intersection(arrays: any): any;
+    static intersection(...arrays: any): any;
 
-    static intersectionBy(arrays: any): any;
+    static intersectionBy(...arrays: any): any;
 
-    static intersectionWith(arrays: any): any;
+    static intersectionWith(...arrays: any): any;
 
     static invert(object: any, iteratee: any): any;
 
